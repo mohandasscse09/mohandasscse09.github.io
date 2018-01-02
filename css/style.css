@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/nunito-regular-webfont.eot');
+    src: url('../fonts/nunito-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nunito-regular-webfont.woff2') format('woff2'),
+         url('../fonts/nunito-regular-webfont.woff') format('woff'),
+         url('../fonts/nunito-regular-webfont.ttf') format('truetype'),
+         url('../fonts/nunito-regular-webfont.svg#nunitoregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/nunito-bold-webfont.eot');
+    src: url('../fonts/nunito-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nunito-bold-webfont.woff2') format('woff2'),
+         url('../fonts/nunito-bold-webfont.woff') format('woff'),
+         url('../fonts/nunito-bold-webfont.ttf') format('truetype'),
+         url('../fonts/nunito-bold-webfont.svg#nunitoregular') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+a:focus,a:active{
+	outline: 0;
+}
+
+body{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+}
+
+body,html{
+	min-height: 100%;
+	height: 100%;
+}
+
+/* About */
+#about{
+	min-height: 500px;
+	height: 100%;
+	background: url('../images/about-bg.jpg') no-repeat fixed center center / cover;
+}
+#about .container{
+	height: 100%;
+}
+#about .overlay{
+    background: rgba(0,0,0, .7);
+    width: 100%;
+    height: 100%;
+}
+#about .valign-wrapper{
+	height: 100%;
+	display: -ms-flexbox;
+		display: -webkit-flex;
+			display: flex;
+	-ms-flex-align: center;
+		-webkit-align-items: center;
+			-webkit-box-align: center;
+				align-items: center;
+}
+#about h1{
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 60px;
+	margin-top: 0;
+	font-weight: 700;
+}
+#about span{
+	color: #00bcd4;
+}
+#about h3{
+	color: #FFF;
+	font-size: 40px;
+	font-weight: 700;
+}
+#about p{
+	color: #FFF;
+	font-size: 22px;
+}
+#about .scrollTo{
+	margin-top: 80px;
+}
+#about .scrollTo a{
+	color: #FFF;
+	font-size: 60px;
+}
+
+/* Experience */
+#experience{
+	background: #00BCD4;
+	padding: 100px 0;
+}
+#experience h2{
+	font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+	color: #FFF;
+}
+#experience .panel{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+#experience .panel:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	-moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	-webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#experience .panel-heading{
+	padding: 16px 15px;
+	font-size: 16px;
+}
+#experience .panel-body{
+	padding: 0;
+}
+#experience img{
+	width: 100%;
+	height: auto;
+}
+#experience  .panel-footer{
+	border: 0;
+}
+#experience h3{
+	color: #00bcd4;
+	margin-top: 0;
+}
+#experience p{
+	margin: 0;
+}
+
+/* Skill */
+#skills{
+	padding: 100px 0;
+}
+#skills h2{
+	font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#skills .skill{
+	width: 150px;
+	margin: 0 auto 50px;
+	position: relative;
+}
+#skills .skill span{
+    font-size: 30px;
+    height: 150px;
+    left: 0;
+    line-height: 150px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+#skills .skill h3{
+	color: #000;
+    font-size: 22px;
+	text-align: center;
+}
+
+/* Education */
+#education{
+	background: #00BCD4;
+	padding: 100px 0;
+}
+#education h2{
+	font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+	color: #FFF;
+}
+#education .panel{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+#education .panel:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	-moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	-webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#education .panel-heading{
+	padding: 16px 15px;
+	font-size: 16px;
+}
+#education .panel-body{
+	padding: 0;
+}
+#education img{
+	width: 100%;
+	height: auto;
+}
+#education  .panel-footer{
+	border: 0;
+}
+#education h3{
+	color: #00bcd4;
+	margin-top: 0;
+}
+#education p{
+	margin: 0;
+}
+
+
+/* Portfolio */
+#portfolio{
+	padding: 100px 0;
+	background: #EEE;
+}
+#portfolio h2{
+	font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#portfolio .portfolio{
+	overflow: hidden;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	border: 5px solid #FFF;
+	margin-bottom: 30px;
+}
+#portfolio .portfolio img{
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;  
+}
+#portfolio .portfolio:hover img{
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+
+/* Contact */
+#contact{
+	padding: 30px 0;
+	background: #000;
+}
+#contact h2{
+	font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+	color: #FFF;
+	margin-bottom: 0;
+}
+#contact p{
+	color: #FFF;
+	text-align: center;
+	font-size: 20px;
+}
+#contact p a{
+	color: #FFF;	
+}
+#contact p a:hover{
+	text-decoration: none;
+}
+#contact .social a{
+	font-size: 40px;
+}
+
+
