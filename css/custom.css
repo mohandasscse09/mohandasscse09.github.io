@@ -1,0 +1,20 @@
+
+#contact{background-color:#181818}
+#contact .section--title .h2:after{background-color:#fff;}
+.port_gallary .pb--30 .portfolio--item{border: 3px solid #0000002b;padding: 10px;box-shadow: 3px 3px 9px 4px #ccc;}
+.port_gallary .pb--30 .portfolio--item img{height:232px;}
+.black{color:#000;}
+.white{color: #fff;}
+.blink span{
+	font-weight:bold;
+	float:right;
+	animation: blink 1s linear infinite;
+}
+
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+.mohan_pic img{height: 500px;
+    float: right;}
