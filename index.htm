@@ -1,503 +1,822 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html dir="ltr" lang="en">
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Mohandass UI Developer</title>
-	<!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	
-    <!-- Custom CSS -->
-	<link rel="stylesheet" href="css/progress.css">
-	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<link rel="stylesheet" href="css/animate.min.css">
-	<link href="css/agency.css" rel="stylesheet">
-	<link href="css/demo-page.css" rel="stylesheet" media="all">
-	<link href="css/hover.css" rel="stylesheet" media="all">
-	<link href="css/devices.css" rel="stylesheet" media="all">
-	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
-	
-	<!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="js/easyin.js"></script>
-	<script type="text/javascript" src="js/vivus.js"></script>
-	
-	
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- ==== Document Title ==== -->
+    <title>Mohandass - UI Developer</title>
+    
+    <!-- ==== Document Meta ==== -->
+    <meta name="keywords" content="personal portfolio">
+
+    <!-- ==== Favicon ==== -->
+    <link rel="icon" href="img/Ms_logo.png" type="image/png" sizes="50x20">
+
+    <!-- ==== Google Font ==== -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Condensed:300,400,700">
+    
+    <!-- ==== Plugins Bundle ==== -->
+    <link rel="stylesheet" href="css/plugins.min.css">
+    
+    <!-- ==== Main Stylesheet ==== -->
+    <link rel="stylesheet" href="css/style.min.css">
+    
+    <!-- ==== Responsive Stylesheet ==== -->
+    <link rel="stylesheet" href="css/responsive-style.min.css">
+    
+    <!-- ==== Color Scheme Stylesheet ==== -->
+    <link rel="stylesheet" href="css/color-1.css" id="changeColorScheme">
+    
+    <!-- ==== Custom Stylesheet ==== -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- ==== HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries ==== -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	
-	<style>
-	
-	</style>
-
-
 </head>
+<body data-spy="scroll" data-target="#headerNav" data-offset="100">
 
-<body id="page-top" class="index">
-<div class="ptBg"></div>
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logos/Ms_logo.png" alt="ms" title="ms" width="100" height="60"/></a>
-            </div>
+    <!-- Preloader Start -->
+    <div id="preloader" class="bg-primary">
+        <div class="preloader--spinner"></div>
+    </div>
+    <!-- Preloader End -->
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#Experience" title="Experience">Experience</a>
-                    </li>
-					<li>
-                        <a class="page-scroll hvr-underline-from-center" href="#about" title="About">About</a>
-                    </li>
-					<li>
-                        <a class="page-scroll hvr-underline-from-center" href="#Skills" title="Skills">Skills</a>
-                    </li>
-					<li>
-						<a class="page-scroll hvr-underline-from-center" href="#education" title="Education">Education</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#portfolio" title="Portfolio">Portfolio</a>
-                    </li>
-                  <!--   <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#contact" title="Contact">Contact</a>
-                    </li> -->
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+        <!-- Header Section Start -->
+        <header id="header" class="header--section">
+            <!-- Header Navbar Start -->
+            <nav class="header--navbar navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
 
-    <!-- Header -->
-    <header>
-	
-        <div class="container">
-            <div class="intro-text">
-				 <!-- <div class="intro-lead-in"><img src="img/dassphoto.jpg" class="img-circle" width="250" height="245"></div> -->
-               <div class="intro-lead-in printani" style="font-size:48px;font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;">HI! I'm <span style="color:#14B97D;font-weight:bold;">Mohandass</span></div>
-				
-			
-			 <div class="intro-heading printani">UI developer from Chennai, India</div>
-              <a href="#Experience" class="hvr-shutter-out-horizontal" title="See more" ><img src="img/double.png" alt="See more" title="See more" width="25" height="25" class="animated infinite bounce"/></a>
-				
-            </div>
-		 </div>
-    </header>
+                        <!-- Logo Start -->
+                        <a href="index.html" class="navbar-brand">
+                            <span class="vc--parent">
+                                <span class="vc--child">
+                                    <img src="img/Logopink.png" alt="" width="65" height="32">
+                                </span>
+                            </span>
+                        </a>
+                        <!-- Logo End -->
+                    </div>
 
-    <!-- Experience Section -->
-    <section id="Experience">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center  wow slideInUp">
-                    <h2 class="section-heading hvr-underline-from-left ">Experience</h2>
-					<h4 class="section-subheading text-muted" style="font-size:16px;">Where have I worked? <br/><br/>I got good experiences from here.</h4>
-					
-				
+                    <div id="headerNav" class="navbar-collapse collapse">
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links ff--primary nav navbar-right">
+                            <li class="active"><a href="#header" data-trigger="scroll">Home</a></li>
+                            <li><a href="#aboutme" data-trigger="scroll">About Me</a></li>
+							<li><a href="#education" data-trigger="scroll">Education</a></li>
+							<li><a href="#experience" data-trigger="scroll">Experience</a></li>
+							<li><a href="#skills" data-trigger="scroll">Skills</a></li>
+							<li><a href="#portfolio" data-trigger="scroll">Portfolio</a></li>
+							<li><a href="#contact" data-trigger="scroll">Contact</a></li>
+                        </ul>
+                        <!-- Header Nav Links End -->
+                    </div>
+                </div>
+            </nav>
+            <!-- Header Navbar End -->
+        </header>
+        <!-- Header Section End -->
+		<!-- Banner Section Start -->
+        <section id="banner" class="banner--section" data-bg-parallax="img/mohandass.jpg" data-overlay="0.8">
+            <div class="vc--parent">
+                <div class="vc--child">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <!-- Banner Content Start -->
+                                <div class="banner--content text-center pt--160 pb--100">
+                                    <div class="title text-uppercase">
+                                        <h2 class="h3 text-white"><span class="text-primary">Hello</span> I'm</h2>
+                                    </div>
+
+                                    <div class="name text-uppercase">
+                                        <h3 class="h2 text-white">Mohan dass</h3>
+                                    </div>
+
+                                    <div class="role fs--18 fw--700 text-white">
+                                        <p>UI DEVELOPER FROM CHENNAI, INDIA</p>
+                                    </div>
+
+                                   <!--  <div class="desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias ullam iure, libero assumenda mollitia, architecto voluptate, vel quasi voluptatibus, dolorum illum.</p>
+                                    </div>
+
+                                    <div class="action">
+                                        <a href="#" class="btn btn-default">Hire Me</a>
+                                        <a href="#" class="btn btn-white">My Works</a>
+                                    </div> -->
+                                </div>
+                                <!-- Banner Content End -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row text-center margintop">
-				 <div class="col-md-4  wow slideInUp slide_exp" style="">
-                    <div class="xerago_logo">
-						<img src="img/cognizant.jpg" alt="xerago" width="300" height="180px" class="img-circle"/>
-					</div>
-					<h4 class="service-heading">March 2016 - Till </h4>
-					<p class="text-muted hvr-grow-shadow hvr-underline-from-left"><strong>Cognizant<br/>Programmer Analyst</strong></p>
-                  <!--   <p class="text-muted">No risk analytics. No supply chain analytics. No financial analytics. Xerago does customer analytics and customer analytics ONLY.</p> -->
+        </section>
+        <!-- Banner Section End -->
+		<!-- About Section Start -->
+        <section id="aboutme" class="section pt--100 pb--40">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">About Me</h2>
                 </div>
-                <div class="col-md-4 wow slideInUp slide_exp">
-					<div class="xerago_logo">
-						<img src="img/xerago.jpg" alt="xerago" width="300" class="img-circle"/>
-					</div>
-                    <!-- <span class="fa-stack fa-4x">
-                       <img src="img/xerago.jpg" alt="" width="180" height="180"/>
-                    </span> -->
-                    <h4 class="service-heading">August 2014 - February 2016</h4>
-					<p class="text-muted hvr-grow-shadow hvr-underline-from-left"><strong>Xerago<br/>Associate UI Engineer</strong></p>
-                    <!-- <p class="text-muted">No risk analytics. No supply chain analytics. No financial analytics. Xerago does customer analytics and customer analytics ONLY.</p> -->
-                </div>
-                <div class="col-md-4 wow slideInUp slide_exp">
-					<div class="xeplote_logo">
-                       <h3 align="middle" style="color: red;font-size:23px;margin-top:48px;"> XPLORE<br/> INFOTECH</h3>
-					</div>
-                    <h4 class="service-heading">June 2013 - August 2014</h4>
-					<p class="text-muted hvr-grow-shadow hvr-underline-from-left"><strong>Xplore Information Technology<br/>Web developer</strong></p>
-					
-                 <!--    <p class="text-muted ">Xplore Infotech a premier Software Development & IT services aims at providing a full range of high quality, cost-effective information technology solutions to businesses at global level.</p> -->
-                </div>
-               
-            </div>
-        </div>
-    </section>
-	
-	<!-- About Section -->
-    <section id="about" style="background:#222222">
-        <div class="container">
-            <div class="row" style="text-align:center;">
-			 <h2 class="section-heading hvr-underline-from-left ">About</h2>
-                <div class="col-lg-12 text-center  wow slideInUp margintop">
+                <!-- Section Title End -->
+
+                <div class="row row--md-vc">
                    
-                   <!--  <h3 class="section-subheading text-muted text_meniwor">I Love designing and developing websites as much I love to traveling. I have been working in the field for 2.6 years &amp; would Love to help you take your product to the next level.</h3> -->
-					
-					<div class="col-md-8">
-					<p class="section_develope" style="font-size:16px;line-height: 28px;text-align:left;color:#fff">
-						<!-- <span style="font-size:25px;">I'm <span style="color:#14B97D">Mohandass</span><span style="color:#E67E22"> D</span> <br/><span style="color:#14B97D">UI Developer from chennai, India</span><br/><br/></span> -->
-						
-						<span style="color:#0078bd;font-size:23px;font-weight:bold;">Mohandass D, </span><span style="color:#0078bd;font-size:23px;font-weight:bold;">UI Developer,</span> Currently I am working in a software company - Cognizant. Every day I encounter new challenges, which enhances my knowledge of JavaScript and popular frameworks like jQuery and Angular. I am also absolutely in love with HTML5 and CSS3. Even though we spend most of the time together creating beautiful pieces of different UI's.<br/><br/>
-						
-						And i am able to work effectively in a team or on my own. I have demonstrated an ability to lead Teams and mentor other workers. I pride myself on being able to use my knowledge and initiative to deliver high quality results to tight deadlines. I enjoy a challenge and look for the opportunity to expand and develop my skill set.<br/><br/>
-						
-						What does matter is the output of my work, which is always focused at the point where user, business and technical requirements meet and tends to become a perfect product.
-					</p>
-						<ul class="social_icon">
-							<li><a href="https://www.facebook.com/mohandass" title="facebook" target="_blank"><span class="sprite facebook"></span></a></li>
-							<li><a href="https://www.linkedin.com/in/mohan-dass-d-62b36ba0" title="linkedin" target="_blank"><span class="sprite linkedin"></span></a></li>
-							<li><a href="" title="twitter"><span class="sprite twitter" target="_blank"></span></a></li>
-						</ul>
-					</div>
-					<div class="col-md-4">
-						<img src="img/moh.jpg" alt="" class="borderradius" width="260" height="280"/>
-					</div>
-                </div>
-			</div>
-            
-        </div>
-    </section>
+                    
+                    <div class="col-md-7 pb--60">
+                        <!-- About Block Start -->
+                        <div class="about--block">
+                            <div class="title">
+                                <h2 class="h4 fw--700 text-uppercase">Personal Details</h2>
+                            </div>
 
-	<!-- Skills Grid Section -->
-	<section id="Skills" class="bg-light-gray">
-		<div class="container">
-			 <div class="row">
-                <div class="col-lg-12 text-center  wow slideInUp">
-                    <h2 class="section-heading hvr-underline-from-left">Skills</h2>
-                    <p class="section_develope" style="font-size:16px;line-height: 28px;width:80%">
-						To obtain a creative and challenging position that enables me to gain valuable commercial experience and improve the web development and design skills that I gained as part of my course and projects.
-					</p>	
+                            <div class="details pt--30 text-dark">
+                                <p>Mohandass D, UI Developer, Currently I am working in a software company - Cognizant. Every day I encounter new challenges, which enhances my knowledge of JavaScript and popular frameworks like jQuery and Angular. I am also absolutely in love with HTML5 and CSS3. Even though we spend most of the time together creating beautiful pieces of different UI's.</p>
+                            </div>
+
+                            <div class="details pt--30 text-dark">
+                                <p>And i am able to work effectively in a team or on my own. I have demonstrated an ability to lead Teams and mentor other workers. I pride myself on being able to use my knowledge and initiative to deliver high quality results to tight deadlines. I enjoy a challenge and look for the opportunity to expand and develop my skill set.</p>
+                            </div>
+                             <div class="details pt--30 text-dark">
+                                <p>What does matter is the output of my work, which is always focused at the point where user, business and technical requirements meet and tends to become a perfect product.
+                                </p>
+                            </div>
+                            <div class="social text-dark pt--30">
+                                <ul class="nav">
+                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="action pt--60">
+                                <a href="#" class="btn btn-default">Download Resume</a>
+                            </div>
+                        </div>
+                        <!-- About Block End -->
+                    </div>
+                     <div class="col-md-5 pb--60">
+                        <!-- Image Block Start -->
+                        <div class="img--block mohan_pic">
+                            <img src="img/moh.jpg" alt="">
+                        </div>
+                        <!-- Image Block End -->
+                    </div>
                 </div>
             </div>
-			
-			<div class="row margintop">
-				<div class="col-md-3 col-sm-3 wow slideInUp">
-					<div class="skill" data-value="0.8"  data-size="150" data-thickness="15" data-animation-start-value="0" data-fill="{ &quot;color&quot;: &quot;#106E27&quot; }" data-reverse="true">
-						<span></span>
-						<h3>HTML5</h3>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-3 wow slideInUp">
-					<div class="skill" data-value="0.8"  data-size="150" data-thickness="15" data-animation-start-value="0" data-fill="{ &quot;color&quot;: &quot;#E67E22&quot; }" data-reverse="true">
-						<span></span>
-						<h3>CSS3</h3>
-					</div>
-				</div>
-				
-				<div class="col-md-3 col-sm-3 wow slideInUp">
-					<div class="skill" data-value="0.8"  data-size="150" data-thickness="15" data-animation-start-value="0" data-fill="{ &quot;color&quot;: &quot;#FFC600&quot; }" data-reverse="true">
-						<span></span>
-						<h3>Bootstrap</h3>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-3 wow slideInUp">
-					<div class="skill" data-value="0.7"  data-size="150" data-thickness="15" data-animation-start-value="0" data-fill="{ &quot;color&quot;: &quot;#1D088F&quot; }" data-reverse="true">
-						<span></span>
-						<h3>JQuery</h3>
-					</div>
-				</div>
-			
-			</div>
-			
-			<div class="row margintop">
-				<div class="col-md-3 col-sm-3 wow slideInUp">
-					<div class="skill" data-value="0.6"  data-size="150" data-thickness="15" data-animation-start-value="0" data-fill="{ &quot;color&quot;: &quot;#8F2508&quot; }" data-reverse="true">
-						<span></span>
-						<h3>Javascript</h3>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-3 wow slideInUp">
-					<div class="skill" data-value="0.4"  data-size="150" data-thickness="15" data-animation-start-value="0" data-fill="{ &quot;color&quot;: &quot;#3498DB&quot; }" data-reverse="true">
-						<span></span>
-						<h3>Angular (2,4,5)</h3>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-3 wow slideInUp">
-					<div class="skill" data-value="0.4"  data-size="150" data-thickness="15" data-animation-start-value="0" data-fill="{ &quot;color&quot;: &quot;#807A7A&quot; }" data-reverse="true">
-						<span></span>
-						<h3>Photoshop</h3>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	
-	<!-- education Grid Section -->
-	<section id="education" class="" style="background-color:#222222;color:#fff">
-		<div class="container">
-			 <div class="row">
-                <div class="col-lg-12 text-center  wow slideInUp">
-                    <h2 class="section-heading hvr-underline-from-left">Education</h2>
-                    <p class="section_develope" style="font-size:16px;line-height: 28px;color:#fff">
-						Learning gives creativity, Creativity leads to thinking, Thinking provides knowledge, Knowledge makes you great.
-					</p>	
+        </section>
+        <!-- About Section End -->
+		<!-- Resume Section Start -->
+        <section id="education" class="section pt--100 pb--100">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Education</h2>
                 </div>
+                <!-- Section Title End -->
+
+                <!-- Timeline Block Start -->
+                <div class="timeline--block">
+                   
+                    <div class="sub-title">
+                        <p class="fs--16">Learning gives creativity, Creativity leads to thinking, Thinking provides knowledge, Knowledge makes you great.</p>
+                    </div>
+
+                    <!-- Timeline Items Start -->
+                    <ul class="timeline--items nav">
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-default">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">JULY 2010 - MAR 2013</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">BE - Computer Science and Engineering</h4>
+
+                                                <p class="institute ff--primary">Theni Kammavar Sangam College Of Technology</p>
+
+                                                <p class="location fs--12">Theni, India</p>
+                                            </div>
+                                        </td>
+                                        <!-- <td>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ad, officiis! Saepe amet beatae nihil, tempora, qui odio sapiente aliquid sit quia ipsa quae.</p>
+                                            </div>
+                                        </td> -->
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-default">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">JUN 2007 - MAR 2010</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Diplomo - Computer Science and Engineering</h4>
+
+                                                <p class="institute ff--primary">The Karur Polytechnic College</p>
+
+                                                <p class="location fs--12">Karur, India</p>
+                                            </div>
+                                        </td>
+                                      <!--   <td>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ad, officiis! Saepe amet beatae nihil, tempora, qui odio sapiente aliquid sit quia ipsa quae.</p>
+                                            </div>
+                                        </td> -->
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-default">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">JULY 2006 - APRIL 2007</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">SSLC</h4>
+
+                                                <p class="institute ff--primary">Theni Melapattai Hindu Nadar Uravinmurai Metric Hr Sec School</p>
+
+                                                <p class="location fs--12">Theni, India</p>
+                                            </div>
+                                        </td>
+                                       <!--  <td>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ad, officiis! Saepe amet beatae nihil, tempora, qui odio sapiente aliquid sit quia ipsa quae.</p>
+                                            </div>
+                                        </td> -->
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                        
+                    </ul>
+                    <!-- Timeline Items End -->
+                </div>
+                <!-- Timeline Block End -->
             </div>
-			
-			<div class="row margintop">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li class="">
-                            <div class="timeline-image time_deg">
-                                <img class="img-circle img-responsive tilt pic" src="img/degicons/online-degree-value2.gif" alt="">
-								
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2010 - Mar 2013</h4>
-                                    <h4 class="subheading">BE - Computer Science and Engineering</h4>
+        </section>
+        <!-- Resume Section End -->
+		<!-- Experience Section Start -->
+        <section id="experience" class="section pt--100 pb--100 bg-light">
+            <div class="container">
+				 <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Experience</h2>
+                </div>
+                <!-- Timeline Block Start -->
+                <div class="timeline--block">
+                  <!--   <div class="title">
+                        <h3 class="h5">Experience</h3>
+                    </div> -->
+
+                    <div class="sub-title">
+                        <p class="fs--16">No matter how long you train someone to be brave, you never know if they are not until something real happens.</p>
+                    </div>
+
+                    <!-- Timeline Items Start -->
+                    <ul class="timeline--items nav">
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
                                 </div>
-                                <div class="timeline-body">
-									<p class="text-muted">Theni Kammavar Sangam College Of Technology - Theni</p>
-									
-                               
-									
-                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">March 2016 - Till</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Cognizant</h4>
+
+                                                <p class="institute ff--primary">Programmer Analyst</p>
+
+                                                <p class="location fs--12">Chennai, India</p>
+                                            </div>
+                                        </td>
+                                        <!-- <td>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ad, officiis! Saepe amet beatae nihil, tempora, qui odio sapiente aliquid sit quia ipsa quae.</p>
+                                            </div>
+                                        </td> -->
+                                    </tr>
+                                </table>
                             </div>
+                            <!-- Timeline Item End -->
                         </li>
-						
-						<li class="">
-							<svg id ="custom_svg" height="120" width="50" style="margin-left:50%"> 
-							 <line x1="0" y1="0" x2="0" y2="120" stroke-dasharray="6, 5" style="stroke:rgb(108, 76, 110);stroke-width:6;" />
-							  Sorry, your browser does not support inline SVG. 
-									
-							</svg>
-						</li>
-						
-				
-                        <li class="timeline-inverted">
-                            <div class="timeline-image time_second">
-                                <img class="img-circle img-responsive tilt pic" src="img/degicons/index1.jpg" alt="">
-								
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2007 - Mar 2010</h4>
-                                    <h4 class="subheading">Diplomo - Computer Science and Engineering</h4>
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
                                 </div>
-                                <div class="timeline-body">
-									<p class="text-muted">The Karur Polytechnic College - Karur</p>
-							
-                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">August 2014 - February 2016</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Xerago</h4>
+
+                                                <p class="institute ff--primary">Associate UI Engineer</p>
+
+                                                <p class="location fs--12">Chennai, India</p>
+                                            </div>
+                                        </td>
+                                      <!--   <td>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ad, officiis! Saepe amet beatae nihil, tempora, qui odio sapiente aliquid sit quia ipsa quae.</p>
+                                            </div>
+                                        </td> -->
+                                    </tr>
+                                </table>
                             </div>
+                            <!-- Timeline Item End -->
                         </li>
-						
-						<li class="">
-							<svg id ="custom_svg1" height="120" width="50" style="margin-left:50%"> 
-							 <line x1="0" y1="0" x2="0" y2="120" stroke-dasharray="6, 5" style="stroke:rgb(108, 76, 110);stroke-width:6;" />
-							  Sorry, your browser does not support inline SVG. 
-									
-							</svg>
-						</li>
-						
-                        <li class="">
-                            <div class="timeline-image time_third">
-                                <img class="img-circle img-responsive tilt pic" src="img/degicons/student.png" alt=""> 
-							   
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2006 - April 2007</h4>
-                                    <h4 class="subheading">SSLC </h4>
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
                                 </div>
-                                <div class="timeline-body">
-									<p class="text-muted">Theni Melapattai Hindu Nadar Uravinmurai Metric Hr Sec School - Theni</p>
-								
-                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">June 2013 - August 2014</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Xplore Information Technology</h4>
+
+                                                <p class="institute ff--primary">Web developer</p>
+
+                                                <p class="location fs--12">Chennai, India</p>
+                                            </div>
+                                        </td>
+                                        <!-- <td>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ad, officiis! Saepe amet beatae nihil, tempora, qui odio sapiente aliquid sit quia ipsa quae.</p>
+                                            </div>
+                                        </td> -->
+                                    </tr>
+                                </table>
                             </div>
+                            <!-- Timeline Item End -->
                         </li>
-						
-						<li class="">
-							<svg id ="custom_svg2" height="120" width="50" style="margin-left:50%"> 
-							 <line x1="0" y1="0" x2="0" y2="120" stroke-dasharray="6, 5" style="stroke:rgb(108, 76, 110);stroke-width:6;" />
-							  Sorry, your browser does not support inline SVG. 
-									
-							</svg>
-						</li>
-                     
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-									<h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
+                       
+                         <!-- Timeline Item End -->
+                    </ul>
+                    <!-- Timeline Items End -->
+                </div>
+                <!-- Timeline Block End -->
+            </div>
+        </section>
+        <!-- Experience Section End -->
+		<!-- Skills Section Start -->
+        <section id="skills" class="section pt--100 pb--40" data-bg-img="img/skills-img/bg.jpg" data-overlay="0.7">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-white text-uppercase">My Skills</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row">
+                    
+
+                    <div class="col-md-6 pb--60">
+                        <!-- Skills Items Start -->
+                        <div class="skills--items">
+                            <div class="skill--title text-uppercase">
+                                <h3 class="h4 text-white">Professional Skills</h3>
                             </div>
-                        </li>
+
+
+                             <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">HTML5</span>
+                                    <span class="skill--count float--right">80%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 80%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                             <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">CSS3</span>
+                                    <span class="skill--count float--right">80%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 80%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                             <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">BOOTSTRAP</span>
+                                    <span class="skill--count float--right">80%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 80%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+                             <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">JQUERY</span>
+                                    <span class="skill--count float--right">70%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 70%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+                             <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">JAVASCRIPT</span>
+                                    <span class="skill--count float--right">60%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 60%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+                             <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">ANGULAR (2,4,5)</span>
+                                    <span class="skill--count float--right">40%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 80%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Photoshop</span>
+                                    <span class="skill--count float--right">40%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 40%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+                        </div>
+                        <!-- Skills Items End -->
+                    </div>
+                    <div class="col-md-6 pb--60">
+                        <!-- Skills Items Start -->
+                        <div class="skills--items">
+                            <div class="skill--title text-uppercase">
+                                <h3 class="h4 text-white">Personal Skills</h3>
+                            </div>
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Hard Work</span>
+                                    <span class="skill--count float--right">100%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 100%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Self Motivation</span>
+                                    <span class="skill--count float--right">90%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 90%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Communication</span>
+                                    <span class="skill--count float--right">50%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 50%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Team Work</span>
+                                    <span class="skill--count float--right">90%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 90%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Dedication</span>
+                                    <span class="skill--count float--right">90%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 90%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+                        </div>
+                        <!-- Skills Items End -->
+                    </div>
+                    
+                </div>
+                <p class="blink white"><span>And the list goes on...</span></p>
+            </div>
+        </section>
+        <!-- Skills Section End -->
+		<!-- Portfolio Section Start -->
+        <section id="portfolio" class="section pt--100 pb--40">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Portfolio</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <!-- Portfolio Filter Menu Start -->
+                <div class="portfolio--filter-menu pb--50">
+                    <ul class="nav">
+                        <li data-target="ui-design" class="active">All Works</li>
+                        <li data-target="Cognizant">Cognizant</li>
+                        <li data-target="Xerago">Xerago</li>
                     </ul>
                 </div>
-            </div>
-		</div>
-	</section>
-	
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center wow slideInUp">
-                    <h2 class="section-heading hvr-underline-from-left ">Portfolio</h2>
-                   
-					<h4 class="section-subheading text-muted" style="font-size:16px;">Creative Blogs</h4>
+                <!-- Portfolio Filter Menu End -->
+
+                <!-- Portfolio Items Start -->
+                <div class="portfolio--items row pb--30 port_gallary">
+                    <div class="col-md-4 col-xs-6 col-xxs-12 pb--30" data-cat="Cognizant ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <a href="https://www.live-lab.co.uk/" target="_blank"><img src="img/cognizant/livelab.png" alt=""></a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-6 col-xxs-12 pb--30" data-cat="ui-design Cognizant">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <a href="https://www.duodopa.co.uk/" target="_blank"><img src="img/cognizant/duodopa.png" alt=""></a>
+
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-6 col-xxs-12 pb--30" data-cat="Cognizant ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <a href="https://www.myparkinsonspath.com/" target="_blank"><img src="img/cognizant/myparkinsons.png" alt=""></a>
+
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-6 col-xxs-12 pb--30" data-cat="ui-design Cognizant">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <a href="https://duopa.com/" target="_blank"><img src="img/cognizant/duopa.png" alt=""></a>
+
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-6 col-xxs-12 pb--30" data-cat="Cognizant ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <a href="https://www.duopamentor.com" target="_blank"><img src="img/cognizant/duopamentor.png" alt=""></a>
+
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-6 col-xxs-12 pb--30" data-cat="ui-design Cognizant">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item"> 
+                            <a href="https://www.partnersinparkinsons.org/" target="_blank"><img src="img/cognizant/parkinsons.png" alt=""></a>
+
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-6 col-xxs-12 pb--30" data-cat="Cognizant ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <a href="http://seepsoriasislookdeeper.co.uk/" target="_blank"><img src="img/cognizant/sooriasis.png" alt=""></a>
+
+                           
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-6 col-xxs-12 pb--30" data-cat="ui-design Xerago">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <a href="https://www.xerago.com/" target="_blank"><img src="img/xerago/xerago.png" alt=""></a>
+
+                          
+                        </div>
+                    </div>
+
+                        <!-- Portfolio Item End -->
+                     <div class="col-md-4 col-xs-6 col-xxs-12 pb--30" data-cat="ui-design Xerago">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                        <a href="http://servion.com/" target="_blank"><img src="img/xerago/servion.png" alt=""></a>
+
+                          
+                            
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                    <div class="col-md-4 col-xs-6 col-xxs-12 pb--30" data-cat="ui-design Xerago">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <a href="https://www.online.citibank.co.in/products-services/banking/citigold/citigold.htm" target="_blank"><img src="img/xerago/citigold.png" alt=""></a>
+
+                          
+                        </div>
+                    </div>
+                        <!-- Portfolio Item End -->
+                        <div class="col-md-4 col-xs-6 col-xxs-12 pb--30" data-cat="ui-design Xerago">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <a href="https://www.online.citibank.co.in/card-offers/special-offers.htm" target="_blank"><img src="img/xerago/citibank4.png" alt=""></a>
+
+                           
+                        </div>
+                        </div>
+                        <!-- Portfolio Item End -->
+                        <div class="col-md-4 col-xs-6 col-xxs-12 pb--30" data-cat="ui-design Xerago">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <a href="https://www.online.citibank.co.in/" target="_blank"><img src="img/xerago/citibank3.png" alt=""></a>
+
+                        </div>
+                        </div>
+                        <!-- Portfolio Item End -->
+                        <div class="col-md-4 col-xs-6 col-xxs-12 pb--30" data-cat="ui-design Xerago">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <a href="https://www.online.citibank.co.in/portal/newgen/cards/tab/apply-now.htm" target="_blank"><img src="img/xerago/citibank2.png" alt=""></a>
+
+                          
+                        </div>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+                      <p class="blink black"><span>And the list goes on...</span></p>
+                </div>
+                <!-- Portfolio Items End -->
+              
+            
+        </section>
+        <!-- Portfolio Section End -->
+
+		<!-- Contact Section Start -->
+        <section id="contact" class="section pt--100 pb--40 bg-light">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase" style="color:#fff">Contact With Me</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row AdjustRow pb--10">
+                    <div class="col-md-4 col-xs-12 pb--40">
+                        <!-- Contact Info Block Start -->
+                        <div class="contact--info-block" data-scroll-reveal="bottom">
+                            <div class="icon">
+                                <i class="fa fa-phone" style="color:#181818"></i>
+                            </div>
+
+                            <div class="title text-uppercase">
+                                <h3 class="h4">Call Me</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p><a href="tel:+919677635255" class="btn-link" style="color:#fff">(+91) 9677635255</a></p>
+                            </div>
+                        </div>
+                        <!-- Contact Info Block End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--40">
+                        <!-- Contact Info Block Start -->
+                        <div class="contact--info-block" data-scroll-reveal="bottom">
+                            <div class="icon">
+                                <i class="fa fa-map-marker" style="color:#181818"></i>
+                            </div>
+
+                            <div class="title text-uppercase">
+                                <h3 class="h4">Visit Me</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p style="color:#fff">47a1,a3 muthu samandi pillai street, Cumbum - 625516, Theni Dt - TN </p>
+                            </div>
+                        </div>
+                        <!-- Contact Info Block End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--40">
+                        <!-- Contact Info Block Start -->
+                        <div class="contact--info-block" data-scroll-reveal="bottom">
+                            <div class="icon">
+                                <i class="fa fa-envelope-o" style="color:#181818"></i>
+                            </div>
+
+                            <div class="title text-uppercase">
+                                <h3 class="h4">Send A Message</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p><a href="#" class="btn-link"><span class="__cf_email__" style="color:#fff">mohandasscse09gmail.com</span></a></p>
+                            </div>
+                        </div>
+                        <!-- Contact Info Block End -->
+                    </div>
                 </div>
             </div>
-            <div class="row margintop wow slideInUp">
-				<div class="filter" > 
-					<a href="#all" class="activefilter">All</a> 
-					<a href="#Cognizant">Cognizant</a>
-					<a href="#Xerago">Xerago</a> 
-				<!--<a href="#animals">Animals</a>  -->
-				</div>
-					 
-					<div class="gallery wow slideInUp"> 
-							<div class="col-md-4">
-							<a href="https://www.partnersinparkinsons.org/" class="Cognizant wow slideInUp" target="_blank"><img src="img/portfolio/parkinsons.png"></a> 
-							</div>
-							<div class="col-md-4">
-							<a href="http://www.duodopa.co.uk/" class="Cognizant wow slideInUp" target="_blank"><img src="img/portfolio/duodopa.png"></a>
-							</div>
-							<div class="col-md-4">
-							<a href="https://duopa.com/" class="Cognizant wow slideInUp" target="_blank"><img src="img/portfolio/duopa.png"></a> 
-							</div>
-							<div class="col-md-4">
-							<a href="http://www.citibank.ae/uae/special-offer/index.htm" class="Xerago wow slideInUp" target="_blank"><img src="img/portfolio/uae_special-offe.jpg"></a>
-							</div>
-							<div class="col-md-4">
-							<a href="https://www.online.citibank.co.in/" class="Xerago wow slideInUp" target="_blank"><img src="img/portfolio/citiindiahomepage.png"></a>
-							</div>
-							<div class="col-md-4">
-							<a href="https://www.online.citibank.co.in/portal/newgen/cards/tab/apply-now.htm" class="Xerago wow slideInUp" target="_blank"><img src="img/portfolio/citibankccpage.png"></a> 
-							</div>
-							<div class="col-md-4">
-							<a href="http://servion.com/" class="Xerago wow slideInUp" target="_blank"><img src="img/portfolio/servion.png"></a>
-							</div>
-							<div class="col-md-4">
-							<a href="https://www.xerago.com/" class="Xerago wow slideInUp" target="_blank"><img src="img/portfolio/xerago.png"></a> 
-							</div>
-					</div>
-            </div>
-        </div>
+        </section>
+        <!-- Contact Section End -->
 		
-	</section>
+    </div>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center  wow slideInUp">
-                    <h2 class="section-heading hvr-underline-from-left">Contact Us</h2>
-                    <h3 class="section-subheading text-muted text_colo_muted">
-						Email ID : mohandasscse09@gmail.com <br/>
-					<br/>Phone no : +91 9677635255<br/> 
-					
-					</h3>
-				
-					
-                </div>
-            </div>
-       
-        </div>
-		
-    </section>
+    <!-- Wrapper End -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <!-- Back To Top Button Start -->
+    <div id="backToTop">
+        <a href="#" class="btn btn-default active"><i class="fa fa-long-arrow-up"></i></a>
+    </div>
+    <!-- Back To Top Button End -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- ==== Plugins Bundle ==== -->
+   <script src="js/plugins.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+    <!-- ==== Color Switcher Plugin ==== -->
+	<!-- <script src="js/color-switcher.min.js"></script> -->
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
-	<script src="js/progress.js"></script>
-	<script src="js/scripts.js"></script>
-	<script src="js/wow.min.js"></script>
-	<link href="css/jquery.bxslider.css" rel="stylesheet">
-	<script src="js/jquery.bxslider.js"></script>
-	<script src="js/jquery.bxslider.min.js"></script>
-	
-	<script type="text/javascript">
-		$('.bxslider').bxSlider({
-		minSlides: 2,
-		maxSlides: 2,
-		slideWidth: 360,
-		slideMargin: 10
-		});
-		
-		$(document).ready(function(){
-
-			var highestBox = 0;
-				$('.text-center .slide_exp').each(function(){  
-						if($(this).height() > highestBox){  
-						highestBox = $(this).height();  
-				}
-			});    
-			$('.text-center .slide_exp').height(highestBox);
-
-			});
-
-			$('.filter a').click(function(e) {
-			  e.preventDefault();
-			  var a = $(this).attr('href');
-			  $(this).addClass("activefilter").siblings().removeClass("activefilter");
-			  
-			  a = a.substr(1);
-			  $('.gallery a').each(function() {
-				if (!$(this).hasClass(a) && a != 'all')
-				  $(this).addClass('hide');
-				else
-				  $(this).removeClass('hide');
-			  });
-
-			});
-
-			
-			
-			new Vivus('custom_svg', {duration: 200});
-			new Vivus('custom_svg1', {duration: 200});
-			new Vivus('custom_svg2', {duration: 200});
-
-	</script>
+    <!-- ==== Main Script ==== -->
+    <script src="js/main.min.js"></script>
 
 </body>
-
 </html>
