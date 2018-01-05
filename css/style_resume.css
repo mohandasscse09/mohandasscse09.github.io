@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+a{
+	word-wrap: break-word;
+}
+p{
+	margin-bottom: 4px;
+}
+h5,h4,b{
+	color: #292828;
+}
+header{
+    color: #FFF;
+    background: #292828;
+	margin-bottom: 1rem;
+	padding: 0.7rem 1rem;
+}
+header h2{
+	font-size: 26px;
+	margin-bottom: 0;
+}
+.section-title{
+	border-bottom: 2px dotted #292828;
+	margin-bottom: 25px;
+}
+.section-content{
+	margin-bottom: 2rem;
+}
+.photo-affix img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    border: 2px solid #F0F0f0;
+}
+
+
+@media print {
+  .col-sm-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  .col-sm-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+}
+@media (min-width: 1200px){
+.container {
+    max-width: 992px;
+}
+}
