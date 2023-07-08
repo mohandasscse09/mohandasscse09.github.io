@@ -16,5 +16,13 @@
 50%{opacity: .5;}
 100%{opacity: 1;}
 }
-.mohan_pic img{height: 500px;
-    float: right;}
+
+.mohan_pic img{float: right;box-shadow: 7px 4px 12px 0px #ccc;}
+#education{background-color: #181818;color:#fff}
+#education .bg-primary{background-color: #181818}
+#education .timeline--item .bottom{background: #181818;
+    color: #fff;}
+#education .timeline--item .name,#education .section--title .h2:after, #education .timeline--item .institute,#education .section--title .h2{color: #fff;}
+#education .timeline--item{background: #181818;}
+#education .section--title .h2:after{background-color: #fff;}
+.action a:first-child{margin-right:30px}
